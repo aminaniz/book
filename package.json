@@ -1,0 +1,82 @@
+{
+  "name": "react-boiler-plate",
+  "version": "1.0.0",
+  "description": "react-redux-saga boiler plate with webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "serve": "webpack-dev-server",
+    "storybook": "start-storybook",
+    "eslint": "eslint \"src/**/*.js\" \"src/**/*.jsx\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shamilykr/react-boiler-plate.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shamilykr/react-boiler-plate/issues"
+  },
+  "homepage": "https://github.com/shamilykr/react-boiler-plate#readme",
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/plugin-proposal-class-properties": "^7.1.0",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/preset-react": "^7.0.0",
+    "@storybook/react": "^5.1.3",
+    "babel-eslint": "^10.0.1",
+    "babel-jest": "^24.8.0",
+    "babel-loader": "^8.0.6",
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.14.0",
+    "enzyme-to-json": "^3.3.5",
+    "eslint": "^5.12.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-html-reporter": "^0.7.3",
+    "eslint-json": "^2.0.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.4.0",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^24.8.0",
+    "redux-devtools": "^3.5.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.2"
+  },
+  "jest": {
+    "moduleNameMapper": {
+      "\\.(css|less)$": "identity-obj-proxy"
+    },
+    "collectCoverageFrom": [
+      "src/js/**/*.{js,jsx}",
+      "tests/**/*.{js,jsx}",
+      "!tests/mocked/*.{js,jsx}",
+      "!tests/cucumber/**/*",
+      "!tests/mocked/**/*",
+      "!src/js/**/*.story*{js,jsx}"
+    ]
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "css-loader": "^2.1.1",
+    "immutable": "^4.0.0-rc.12",
+    "mdbreact": "^4.21.1",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-bootstrap": "^1.0.0-beta.14",
+    "react-dom": "^16.8.6",
+    "react-redux": "^7.1.0",
+    "react-reveal": "^1.2.2",
+    "react-router-dom": "4.3.1",
+    "react-test-renderer": "^16.8.6",
+    "reactstrap": "^8.1.1",
+    "redux": "^4.0.1",
+    "redux-logger": "^3.0.6",
+    "redux-saga": "0.16.2",
+    "seamless-immutable": "7.1.4",
+    "style-loader": "^0.23.1",
+    "webpack-dev-server": "^3.6.0"
+  }
+}

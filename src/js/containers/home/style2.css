@@ -1,0 +1,126 @@
+.Appheader {
+  
+    color: #fcfcfc;
+    min-height: 200vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: static;
+    position: static;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: calc(100px + 2vmin);
+    font: larger;
+    opacity: 50%;
+  
+  }
+  
+  .b1 {
+    display:inline-block;
+    padding:0.3em 1.2em;
+    margin:0 0.3em 0.3em 0;
+    border-radius:2em;
+    box-sizing: border-box;
+    text-decoration:navy;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    color:#1b1b1b;
+    background-color:#e6eaec;
+    text-align:center;
+    transition: all 0.2s;
+    display:flex;
+    position: absolute;
+    left:0vh;
+    top: 16vh;
+  }
+  
+  .shape{
+    text-align:center;
+    font-family: initial;
+    color:#000000;
+    margin:20px auto;
+    word-spacing: normal;
+  }
+.textbox{
+    top: 50px;
+    border:1px solid #000000;
+	border-radius:10px;
+	height: 22px;
+	width: 200px;
+}
+.textbox2{
+    border:1px solid #000000;
+	border-radius:10px;
+	height: 22px;
+	width: 200px;
+}
+.fieldset {
+    border:2px solid green;
+    -moz-border-radius:8px;
+    -webkit-border-radius:8px;	
+    border-radius:8px;
+}
+.textarea {
+    width: fit-content;
+    height: 150px;
+    align-items: flex-end;
+   
+    box-sizing: border-box;
+    border-radius: 10px;
+    resize: none;
+    
+}
+.divstyle {
+    align-content: center;
+    align-items: center;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);    
+    width: 350px;
+    height: 700px;
+    right: 50px;
+    bottom: 50px;
+    margin-left: 100px;
+    border-radius: 8px;
+    align-content: center;
+    background-color: burlywood;
+    color: #000000;
+    font-family: fantasy;
+    align-content: flex-end;
+    opacity: .9;
+
+}
+.k-form-field {
+    opacity: 1;
+}
+
+
+.next{
+    background-position-y: 0%;
+    background-position-x: 0%;
+    
+
+
+}
+
+.submit {
+    display: inline-block;
+    margin: 0 .3em 1.2em;
+    padding: 0.3em 0.3em;
+    border-radius: 2em;
+    box-sizing: border-box;
+    size: 10%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 300;
+    color: #eee5e5;
+    background-color: rgb(22, 11, 3) ;
+    text-align: center;
+    transition: all 0.2s;
+    display: flex;
+    position: relative;
+    align-items: center;
+    left: 50%;
+    right: 50%;
+    top: 70%;
+   
+
+ 
+
+}

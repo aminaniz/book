@@ -1,0 +1,25 @@
+.adbanner-uilake{
+
+    height: 70px;
+    position: absolute;
+    top: 0;
+    left: 90%;
+    right: 0;
+    z-index: 100;
+    size: 70vh;
+    background-position: left;
+    transition: transform .6s,-webkit-transform .6s;
+}
+
+
+.Back {
+
+    background-image: url('blur-book-stack-books-590493.jpg');
+    background-position: 'center';
+    background-size: cover;
+    min-height: 100%;
+    min-width: 100%;
+    background-position-y: 0%;
+    background-position-x: 0%;
+    background-Repeat: 'no-repeat';
+  }
